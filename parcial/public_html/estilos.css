@@ -4,7 +4,53 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Aug 12, 2017, 2:26:16 AM
-    Author     : DELL INTEL
+    Created on : Aug 11, 2017, 7:48:25 PM
+    Author     : Jamil Rosario
 */
 
+form{
+    /*Para centrar el formulario y poner color de fondo*/
+    margin: 0 auto;
+    width: 900px;
+    background: cyan;
+    /*Pondremos un borde*/
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    
+}
+
+form div{/*Poner espacio entre los elementos*/
+    
+    margin-top: 1em;
+}
+
+label{/*Para asegurarnos que todos los labels tengan el mismo ancho*/
+    
+    display: inline;
+    width: 300px;
+    text-align: rigth;
+    font-size: 20px;
+}
+
+input textarea{
+    width: 400px;
+    font: 1em sans-serif;
+    
+}
+input:focus textarea:focus {/*(focus) es una pseudoclase donde aplicamos a traves de ella un estilo diferente al elemento activo*/
+
+    border: 2px solid #000;
+    background: #F3F3F3;
+}
+
+textarea{
+    vertical-align: middle;
+    
+}
+button{
+    margin-left: 2em;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
