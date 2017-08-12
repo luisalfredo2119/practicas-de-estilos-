@@ -1,0 +1,54 @@
+
+#cabecera {
+    font-family: Road Rage;
+    text-align: center;
+    font-size: 30px;
+    background: blue;
+}
+
+#menu ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    color: white;
+    background: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#cuerpo img{
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+#cuerpo p{
+    text-align: center;
+    font-family: Abadi;
+    font-size: 18px;
+   
+}
+#pie {
+    background: blue;
+    text-align: center;
+}
+#pie img{
+    width: 30px;
+    height: 30px;
+}
+#menu ul li:hover{
+    background: white;
+    color: black;
+}
+
+#menu ul li.seleccionado a {
+  background: blue;
+  color: black;
+}
+#cabecera span{
+    font-family: Arial;
+    font-size: 30px;
+    text-align: left;
+    
+}
