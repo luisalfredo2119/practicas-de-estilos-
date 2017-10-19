@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2017, 7:30:04 PM
+    Author     : DELL INTEL
+*/
+p{ color: #555; }
+#prmero{ color: #CC3300; }
+a{ color: #CC3300; }
+#em{ background: #FFFFCC; padding: .1em; }
+.especial em{ background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
+.normal span{ font-weight: bold; }
